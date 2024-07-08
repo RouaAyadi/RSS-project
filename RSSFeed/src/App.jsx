@@ -27,7 +27,7 @@ function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Your RSS Feed</h1>
+      <h1 className="text-3xl font-bold">Your RSS Feed</h1>
       <div className="flex flex-wrap justify-center">
         {articles.map((article,index)=>(
           <Article key={index} article={article}/>
